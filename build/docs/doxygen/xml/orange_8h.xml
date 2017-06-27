@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="orange_8h" kind="file" language="C++">
+    <compoundname>orange.h</compoundname>
+    <includes refid="api_8h" local="no">OOKz/api.h</includes>
+    <includes local="no">gnuradio/sync_interpolator.h</includes>
+    <includedby refid="orange__impl_8h" local="no">orange_impl.h</includedby>
+    <incdepgraph>
+      <node id="11">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="10">
+        <label>OOKz/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>gnuradio/sync_interpolator.h</label>
+      </node>
+      <node id="9">
+        <label>orange.h</label>
+        <link refid="orange.h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="14">
+        <label>orange_impl.h</label>
+        <link refid="orange__impl_8h"/>
+      </node>
+      <node id="13">
+        <label>orange.h</label>
+        <link refid="orange.h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1OOKz_1_1orange" prot="public">gr::OOKz::orange</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1OOKz">gr::OOKz</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mcl/OOT_Modules/gr-ultimate/include/OOKz/orange.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.11">
+  <compound refid="classgr_1_1OOKz_1_1orange" kind="class"><name>gr::OOKz::orange</name>
+    <member refid="classgr_1_1OOKz_1_1orange_1a7462df529dc612826b6cdabfef30e5aa" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1OOKz_1_1orange_1a25a391cfb2fb0a1fafdc1e7add0c314a" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1OOKz_1_1orange_1a047ecad8fc8ed3ffcc5b9c12fecf850b" kind="function"><name>d_inte</name></member>
+    <member refid="classgr_1_1OOKz_1_1orange_1a86b6b3559bbd3ad656326274f82effb8" kind="function"><name>inte</name></member>
+    <member refid="classgr_1_1OOKz_1_1orange_1ab485477239d79dc321b4f1e2f31eb3b7" kind="function"><name>d_amplitude</name></member>
+    <member refid="classgr_1_1OOKz_1_1orange_1aeb65c5fb0bf666d04fc7cfa637024928" kind="function"><name>amplitude</name></member>
+    <member refid="classgr_1_1OOKz_1_1orange_1a582ff40276d4b084c1bb82d345a3a0c3" kind="function"><name>d_offset</name></member>
+    <member refid="classgr_1_1OOKz_1_1orange_1a800a7fa9f5a535b733342318e5f1d0f2" kind="function"><name>offset</name></member>
+  </compound>
+  <compound refid="classgr_1_1OOKz_1_1orange__impl" kind="class"><name>gr::OOKz::orange_impl</name>
+    <member refid="classgr_1_1OOKz_1_1orange__impl_1a0cb1420d41fb2863a06e6f425520afe2" kind="variable"><name>my_inte</name></member>
+    <member refid="classgr_1_1OOKz_1_1orange__impl_1a5dec73012bb4be9fa94c723a62fff7ec" kind="variable"><name>my_offset</name></member>
+    <member refid="classgr_1_1OOKz_1_1orange__impl_1ad2dcfc36a50a5279992a7cd1503d0dc5" kind="variable"><name>my_amplitude</name></member>
+    <member refid="classgr_1_1OOKz_1_1orange__impl_1a2e6527f64a938b94af710d4066243a3a" kind="function"><name>orange_impl</name></member>
+    <member refid="classgr_1_1OOKz_1_1orange__impl_1a0b8e01cece9c65b4b51b6b224a94479f" kind="function"><name>~orange_impl</name></member>
+    <member refid="classgr_1_1OOKz_1_1orange__impl_1a5c904cd4fac14a6224b16abaa457acfc" kind="function"><name>d_inte</name></member>
+    <member refid="classgr_1_1OOKz_1_1orange__impl_1a449b44a7953a58a57f3bc5592cf9899b" kind="function"><name>inte</name></member>
+    <member refid="classgr_1_1OOKz_1_1orange__impl_1a489af8bccea9a406bc9d112657277d6a" kind="function"><name>d_amplitude</name></member>
+    <member refid="classgr_1_1OOKz_1_1orange__impl_1ac45fcea9e0a21eec6e43f2b1fc60e1d8" kind="function"><name>amplitude</name></member>
+    <member refid="classgr_1_1OOKz_1_1orange__impl_1ae30fe31575eaf2ef90759838ac2e6c4a" kind="function"><name>d_offset</name></member>
+    <member refid="classgr_1_1OOKz_1_1orange__impl_1abe8789e8eb262f3b9a6429750a13fcce" kind="function"><name>offset</name></member>
+    <member refid="classgr_1_1OOKz_1_1orange__impl_1adeb668b20e9e161d891cdcb4212ffc78" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1OOKz" kind="namespace"><name>gr::OOKz</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1a5258ffeb51a87d9f76228f73d4d6b5bc" kind="define"><name>OOKZ_API</name></member>
+  </compound>
+  <compound refid="group__defs_8dox" kind="file"><name>group_defs.dox</name>
+  </compound>
+  <compound refid="main__page_8dox" kind="file"><name>main_page.dox</name>
+  </compound>
+  <compound refid="orange_8h" kind="file"><name>orange.h</name>
+  </compound>
+  <compound refid="orange__impl_8h" kind="file"><name>orange_impl.h</name>
+  </compound>
+  <compound refid="group__block" kind="group"><name>block</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir"><name>lib</name>
+  </compound>
+  <compound refid="dir_44bc41309d2ac92fe0ceaad47bf7b6f8" kind="dir"><name>OOKz</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,50 @@
+Start testing: Jun 27 16:38 EDT
+----------------------------------------------------------
+1/2 Testing: test_OOKz
+1/2 Test: test_OOKz
+Command: "/bin/sh" "/home/mcl/OOT_Modules/gr-ultimate/build/lib/test_OOKz_test.sh"
+Directory: /home/mcl/OOT_Modules/gr-ultimate/build/lib
+"test_OOKz" start time: Jun 27 16:38 EDT
+Output:
+----------------------------------------------------------
+.
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_OOKz" end time: Jun 27 16:38 EDT
+"test_OOKz" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: qa_orange
+2/2 Test: qa_orange
+Command: "/bin/sh" "/home/mcl/OOT_Modules/gr-ultimate/build/python/qa_orange_test.sh"
+Directory: /home/mcl/OOT_Modules/gr-ultimate/build/python
+"qa_orange" start time: Jun 27 16:38 EDT
+Output:
+----------------------------------------------------------
+E
+======================================================================
+ERROR: test_001_t (__main__.qa_orange)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/mcl/OOT_Modules/gr-ultimate/python/qa_orange.py", line 39, in test_001_t
+    blk = OOKz.orange(2)
+  File "/home/mcl/OOT_Modules/gr-ultimate/build/swig/OOKz_swig.py", line 131, in make
+    return _OOKz_swig.orange_make(*args, **kwargs)
+TypeError: Required argument 'amplitude' (pos 2) not found
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+<end of output>
+Test time =   0.25 sec
+----------------------------------------------------------
+Test Failed.
+"qa_orange" end time: Jun 27 16:38 EDT
+"qa_orange" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 27 16:38 EDT

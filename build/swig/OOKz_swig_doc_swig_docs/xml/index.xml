@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.11">
+  <compound refid="classgr_1_1OOKz_1_1orange" kind="class"><name>gr::OOKz::orange</name>
+    <member refid="classgr_1_1OOKz_1_1orange_1a7462df529dc612826b6cdabfef30e5aa" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1OOKz_1_1orange_1a25a391cfb2fb0a1fafdc1e7add0c314a" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1OOKz_1_1orange_1a047ecad8fc8ed3ffcc5b9c12fecf850b" kind="function"><name>d_inte</name></member>
+    <member refid="classgr_1_1OOKz_1_1orange_1a86b6b3559bbd3ad656326274f82effb8" kind="function"><name>inte</name></member>
+    <member refid="classgr_1_1OOKz_1_1orange_1ab485477239d79dc321b4f1e2f31eb3b7" kind="function"><name>d_amplitude</name></member>
+    <member refid="classgr_1_1OOKz_1_1orange_1aeb65c5fb0bf666d04fc7cfa637024928" kind="function"><name>amplitude</name></member>
+    <member refid="classgr_1_1OOKz_1_1orange_1a582ff40276d4b084c1bb82d345a3a0c3" kind="function"><name>d_offset</name></member>
+    <member refid="classgr_1_1OOKz_1_1orange_1a800a7fa9f5a535b733342318e5f1d0f2" kind="function"><name>offset</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1OOKz" kind="namespace"><name>gr::OOKz</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1a5258ffeb51a87d9f76228f73d4d6b5bc" kind="define"><name>OOKZ_API</name></member>
+  </compound>
+  <compound refid="orange_8h" kind="file"><name>orange.h</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/mcl/OOT_Modules/gr-ultimate/include</name>
+  </compound>
+  <compound refid="dir_44bc41309d2ac92fe0ceaad47bf7b6f8" kind="dir"><name>/home/mcl/OOT_Modules/gr-ultimate/include/OOKz</name>
+  </compound>
+</doxygenindex>

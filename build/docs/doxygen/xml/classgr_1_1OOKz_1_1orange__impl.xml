@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1OOKz_1_1orange__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::OOKz::orange_impl</compoundname>
+    <basecompoundref refid="classgr_1_1OOKz_1_1orange" prot="public" virt="non-virtual">gr::OOKz::orange</basecompoundref>
+    <includes refid="orange__impl_8h" local="no">orange_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1OOKz_1_1orange__impl_1a0cb1420d41fb2863a06e6f425520afe2" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::OOKz::orange_impl::my_inte</definition>
+        <argsstring></argsstring>
+        <name>my_inte</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mcl/OOT_Modules/gr-ultimate/lib/orange_impl.h" line="32" column="1" bodyfile="/home/mcl/OOT_Modules/gr-ultimate/lib/orange_impl.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1OOKz_1_1orange__impl_1a5dec73012bb4be9fa94c723a62fff7ec" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::OOKz::orange_impl::my_offset</definition>
+        <argsstring></argsstring>
+        <name>my_offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mcl/OOT_Modules/gr-ultimate/lib/orange_impl.h" line="33" column="1" bodyfile="/home/mcl/OOT_Modules/gr-ultimate/lib/orange_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1OOKz_1_1orange__impl_1ad2dcfc36a50a5279992a7cd1503d0dc5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::OOKz::orange_impl::my_amplitude</definition>
+        <argsstring></argsstring>
+        <name>my_amplitude</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mcl/OOT_Modules/gr-ultimate/lib/orange_impl.h" line="34" column="1" bodyfile="/home/mcl/OOT_Modules/gr-ultimate/lib/orange_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1OOKz_1_1orange__impl_1a2e6527f64a938b94af710d4066243a3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::OOKz::orange_impl::orange_impl</definition>
+        <argsstring>(float inte, int amplitude, int offset)</argsstring>
+        <name>orange_impl</name>
+        <param>
+          <type>float</type>
+          <declname>inte</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>amplitude</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mcl/OOT_Modules/gr-ultimate/lib/orange_impl.h" line="38" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1OOKz_1_1orange__impl_1a0b8e01cece9c65b4b51b6b224a94479f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::OOKz::orange_impl::~orange_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~orange_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mcl/OOT_Modules/gr-ultimate/lib/orange_impl.h" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1OOKz_1_1orange__impl_1a5c904cd4fac14a6224b16abaa457acfc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void gr::OOKz::orange_impl::d_inte</definition>
+        <argsstring>(float inte)</argsstring>
+        <name>d_inte</name>
+        <reimplements refid="classgr_1_1OOKz_1_1orange_1a047ecad8fc8ed3ffcc5b9c12fecf850b">d_inte</reimplements>
+        <param>
+          <type>float</type>
+          <declname>inte</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mcl/OOT_Modules/gr-ultimate/lib/orange_impl.h" line="41" column="1" bodyfile="/home/mcl/OOT_Modules/gr-ultimate/lib/orange_impl.h" bodystart="41" bodyend="41"/>
+        <references refid="classgr_1_1OOKz_1_1orange__impl_1a449b44a7953a58a57f3bc5592cf9899b" compoundref="orange__impl_8h" startline="42" endline="42">inte</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1OOKz_1_1orange__impl_1a449b44a7953a58a57f3bc5592cf9899b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>float</type>
+        <definition>float gr::OOKz::orange_impl::inte</definition>
+        <argsstring>()</argsstring>
+        <name>inte</name>
+        <reimplements refid="classgr_1_1OOKz_1_1orange_1a86b6b3559bbd3ad656326274f82effb8">inte</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mcl/OOT_Modules/gr-ultimate/lib/orange_impl.h" line="42" column="1" bodyfile="/home/mcl/OOT_Modules/gr-ultimate/lib/orange_impl.h" bodystart="42" bodyend="42"/>
+        <referencedby refid="classgr_1_1OOKz_1_1orange__impl_1a5c904cd4fac14a6224b16abaa457acfc" compoundref="orange__impl_8h" startline="41" endline="41">d_inte</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1OOKz_1_1orange__impl_1a489af8bccea9a406bc9d112657277d6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void gr::OOKz::orange_impl::d_amplitude</definition>
+        <argsstring>(int amplitude)</argsstring>
+        <name>d_amplitude</name>
+        <reimplements refid="classgr_1_1OOKz_1_1orange_1ab485477239d79dc321b4f1e2f31eb3b7">d_amplitude</reimplements>
+        <param>
+          <type>int</type>
+          <declname>amplitude</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mcl/OOT_Modules/gr-ultimate/lib/orange_impl.h" line="44" column="1" bodyfile="/home/mcl/OOT_Modules/gr-ultimate/lib/orange_impl.h" bodystart="44" bodyend="44"/>
+        <references refid="classgr_1_1OOKz_1_1orange__impl_1ac45fcea9e0a21eec6e43f2b1fc60e1d8" compoundref="orange__impl_8h" startline="45" endline="45">amplitude</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1OOKz_1_1orange__impl_1ac45fcea9e0a21eec6e43f2b1fc60e1d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>int gr::OOKz::orange_impl::amplitude</definition>
+        <argsstring>()</argsstring>
+        <name>amplitude</name>
+        <reimplements refid="classgr_1_1OOKz_1_1orange_1aeb65c5fb0bf666d04fc7cfa637024928">amplitude</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mcl/OOT_Modules/gr-ultimate/lib/orange_impl.h" line="45" column="1" bodyfile="/home/mcl/OOT_Modules/gr-ultimate/lib/orange_impl.h" bodystart="45" bodyend="45"/>
+        <referencedby refid="classgr_1_1OOKz_1_1orange__impl_1a489af8bccea9a406bc9d112657277d6a" compoundref="orange__impl_8h" startline="44" endline="44">d_amplitude</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1OOKz_1_1orange__impl_1ae30fe31575eaf2ef90759838ac2e6c4a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void gr::OOKz::orange_impl::d_offset</definition>
+        <argsstring>(int offset)</argsstring>
+        <name>d_offset</name>
+        <reimplements refid="classgr_1_1OOKz_1_1orange_1a582ff40276d4b084c1bb82d345a3a0c3">d_offset</reimplements>
+        <param>
+          <type>int</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mcl/OOT_Modules/gr-ultimate/lib/orange_impl.h" line="47" column="1" bodyfile="/home/mcl/OOT_Modules/gr-ultimate/lib/orange_impl.h" bodystart="47" bodyend="47"/>
+        <references refid="classgr_1_1OOKz_1_1orange__impl_1abe8789e8eb262f3b9a6429750a13fcce" compoundref="orange__impl_8h" startline="48" endline="48">offset</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1OOKz_1_1orange__impl_1abe8789e8eb262f3b9a6429750a13fcce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>int gr::OOKz::orange_impl::offset</definition>
+        <argsstring>()</argsstring>
+        <name>offset</name>
+        <reimplements refid="classgr_1_1OOKz_1_1orange_1a800a7fa9f5a535b733342318e5f1d0f2">offset</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mcl/OOT_Modules/gr-ultimate/lib/orange_impl.h" line="48" column="1" bodyfile="/home/mcl/OOT_Modules/gr-ultimate/lib/orange_impl.h" bodystart="48" bodyend="48"/>
+        <references refid="classgr_1_1OOKz_1_1orange__impl_1adeb668b20e9e161d891cdcb4212ffc78">work</references>
+        <referencedby refid="classgr_1_1OOKz_1_1orange__impl_1ae30fe31575eaf2ef90759838ac2e6c4a" compoundref="orange__impl_8h" startline="47" endline="47">d_offset</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1OOKz_1_1orange__impl_1adeb668b20e9e161d891cdcb4212ffc78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::OOKz::orange_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mcl/OOT_Modules/gr-ultimate/lib/orange_impl.h" line="53" column="1"/>
+        <referencedby refid="classgr_1_1OOKz_1_1orange__impl_1abe8789e8eb262f3b9a6429750a13fcce" compoundref="orange__impl_8h" startline="48" endline="48">offset</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="7">
+        <label>gr::sync_interpolator</label>
+      </node>
+      <node id="6">
+        <label>gr::OOKz::orange</label>
+        <link refid="classgr_1_1OOKz_1_1orange"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>gr::OOKz::orange_impl</label>
+        <link refid="classgr_1_1OOKz_1_1orange__impl"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="10">
+        <label>gr::sync_interpolator</label>
+      </node>
+      <node id="9">
+        <label>gr::OOKz::orange</label>
+        <link refid="classgr_1_1OOKz_1_1orange"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>gr::OOKz::orange_impl</label>
+        <link refid="classgr_1_1OOKz_1_1orange__impl"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/mcl/OOT_Modules/gr-ultimate/lib/orange_impl.h" line="30" column="1" bodyfile="/home/mcl/OOT_Modules/gr-ultimate/lib/orange_impl.h" bodystart="29" bodyend="56"/>
+    <listofallmembers>
+      <member refid="classgr_1_1OOKz_1_1orange__impl_1ac45fcea9e0a21eec6e43f2b1fc60e1d8" prot="public" virt="virtual"><scope>gr::OOKz::orange_impl</scope><name>amplitude</name></member>
+      <member refid="classgr_1_1OOKz_1_1orange__impl_1a489af8bccea9a406bc9d112657277d6a" prot="public" virt="virtual"><scope>gr::OOKz::orange_impl</scope><name>d_amplitude</name></member>
+      <member refid="classgr_1_1OOKz_1_1orange__impl_1a5c904cd4fac14a6224b16abaa457acfc" prot="public" virt="virtual"><scope>gr::OOKz::orange_impl</scope><name>d_inte</name></member>
+      <member refid="classgr_1_1OOKz_1_1orange__impl_1ae30fe31575eaf2ef90759838ac2e6c4a" prot="public" virt="virtual"><scope>gr::OOKz::orange_impl</scope><name>d_offset</name></member>
+      <member refid="classgr_1_1OOKz_1_1orange__impl_1a449b44a7953a58a57f3bc5592cf9899b" prot="public" virt="virtual"><scope>gr::OOKz::orange_impl</scope><name>inte</name></member>
+      <member refid="classgr_1_1OOKz_1_1orange_1a25a391cfb2fb0a1fafdc1e7add0c314a" prot="public" virt="non-virtual"><scope>gr::OOKz::orange_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1OOKz_1_1orange__impl_1ad2dcfc36a50a5279992a7cd1503d0dc5" prot="private" virt="non-virtual"><scope>gr::OOKz::orange_impl</scope><name>my_amplitude</name></member>
+      <member refid="classgr_1_1OOKz_1_1orange__impl_1a0cb1420d41fb2863a06e6f425520afe2" prot="private" virt="non-virtual"><scope>gr::OOKz::orange_impl</scope><name>my_inte</name></member>
+      <member refid="classgr_1_1OOKz_1_1orange__impl_1a5dec73012bb4be9fa94c723a62fff7ec" prot="private" virt="non-virtual"><scope>gr::OOKz::orange_impl</scope><name>my_offset</name></member>
+      <member refid="classgr_1_1OOKz_1_1orange__impl_1abe8789e8eb262f3b9a6429750a13fcce" prot="public" virt="virtual"><scope>gr::OOKz::orange_impl</scope><name>offset</name></member>
+      <member refid="classgr_1_1OOKz_1_1orange__impl_1a2e6527f64a938b94af710d4066243a3a" prot="public" virt="non-virtual"><scope>gr::OOKz::orange_impl</scope><name>orange_impl</name></member>
+      <member refid="classgr_1_1OOKz_1_1orange_1a7462df529dc612826b6cdabfef30e5aa" prot="public" virt="non-virtual"><scope>gr::OOKz::orange_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1OOKz_1_1orange__impl_1adeb668b20e9e161d891cdcb4212ffc78" prot="public" virt="non-virtual"><scope>gr::OOKz::orange_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1OOKz_1_1orange__impl_1a0b8e01cece9c65b4b51b6b224a94479f" prot="public" virt="non-virtual"><scope>gr::OOKz::orange_impl</scope><name>~orange_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
