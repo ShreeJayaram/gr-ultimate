@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<block>
+  <name>orange</name>
+  <key>OOKz_orange</key>
+  <category>[OOKz]</category>
+  <import>import OOKz</import>
+  <make>OOKz.orange($inte, $amplitude, $offset)</make>
+
+  <param>
+    <name>interpolator</name>
+    <key>interpolation</key>
+    <type>float</type>
+
+  <option>
+     <name>offset</name>
+     <key>int</key>
+     <opt>fcn:i</opt>
+     <opt>offset_type:int</opt>
+   </option>
+
+   <option>
+     <name>amplitude</name>
+     <key>int</key>
+     <opt>fcn:i</opt>
+     <opt>amplitude_type:int</opt>
+   </option>
+  </param>
+
+    <param>
+	<name>offset</name>
+	<key>offset</key>
+	<value>0</value>
+	<type>$type.offset_type</type>
+    </param>
+
+  <param>
+	<name>amplitude</name>
+	<key>amplitude</key>
+	<value>0</value>
+	<type>$type.amplitude_type</type>
+    </param>
+
+ 
+  <sink>
+    <name>in</name>
+    <type>float</type>
+  </sink>
+
+
+  <source>
+    <name>out</name>
+    <type>float</type>
+  </source>
+</block>
+
