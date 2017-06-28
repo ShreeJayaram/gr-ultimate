@@ -66,7 +66,7 @@ namespace gr {
       const float *in = (const float *) input_items[0];
       float *out = (float *) output_items[0];
 
-	int i;
+	int i = 0;
 	int j = 0;
 	int ctr = 0;
 

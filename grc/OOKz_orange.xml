@@ -4,41 +4,29 @@
   <key>OOKz_orange</key>
   <category>[OOKz]</category>
   <import>import OOKz</import>
-  <make>OOKz.orange($inte, $amplitude, $offset)</make>
+  <make>OOKz.orange($interpolation, $amplitude, $offset)</make>
+  <callback>set_interpolation($interpolation)</callback> 
+  <callback>set_amplitude($amplitude)</callback> 
+  <callback>set_offset($offset)</callback> 
 
   <param>
-    <name>interpolator</name>
+    <name>interpolation</name>
     <key>interpolation</key>
     <type>float</type>
-
-  <option>
-     <name>offset</name>
-     <key>int</key>
-     <opt>fcn:i</opt>
-     <opt>offset_type:int</opt>
-   </option>
-
-   <option>
-     <name>amplitude</name>
-     <key>int</key>
-     <opt>fcn:i</opt>
-     <opt>amplitude_type:int</opt>
-   </option>
   </param>
 
-    <param>
-	<name>offset</name>
-	<key>offset</key>
-	<value>0</value>
-	<type>$type.offset_type</type>
-    </param>
 
   <param>
-	<name>amplitude</name>
-	<key>amplitude</key>
-	<value>0</value>
-	<type>$type.amplitude_type</type>
-    </param>
+    <name>amplitude</name>
+    <key>amplitude</key>
+    <type>int</type>
+  </param> 
+
+ <param>
+    <name>offset</name>
+    <key>offset</key>
+    <type>int</type>
+  </param> 
 
  
   <sink>
