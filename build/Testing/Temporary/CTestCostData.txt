@@ -1,4 +1,3 @@
-test_OOKz 5 0.000740957
-qa_orange 0 0
+test_OOKz 12 0.000334322
+qa_orange 5 0.0499228
 ---
-qa_orange

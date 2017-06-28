@@ -1,14 +1,5 @@
-<testsuite errors="1" failures="0" name="unittest.suite.TestSuite" tests="1" time="0.001">
-  <testcase classname="__main__.qa_orange" name="test_001_t" time="0.0005">
-    <error type="exceptions.TypeError">Required argument 'amplitude' (pos 2) not found
-  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
-    testMethod()
-  File "/home/mcl/OOT_Modules/gr-ultimate/python/qa_orange.py", line 39, in test_001_t
-    blk = OOKz.orange(2)
-  File "/home/mcl/OOT_Modules/gr-ultimate/build/swig/OOKz_swig.py", line 131, in make
-    return _OOKz_swig.orange_make(*args, **kwargs)
-    </error>
-  </testcase>
+<testsuite errors="0" failures="0" name="unittest.suite.TestSuite" tests="1" time="0.002">
+  <testcase classname="__main__.qa_orange" name="test_001_t" time="0.0017"></testcase>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
