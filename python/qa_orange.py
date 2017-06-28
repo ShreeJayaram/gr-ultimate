@@ -30,13 +30,13 @@ class qa_orange (gr_unittest.TestCase):
 
     def tearDown (self):
         self.tb = None
-
+#assuming amplitude = 2 and offset = 0 
     def test_001_t (self):
  	src_data = (0.0,1.0)
-	expected_result = (0.0,0.0,1.0,1.0)
+	expected_result = (-1.0,-1.0,1.0,1.0)
 
 	src = blocks.vector_source_f(src_data)
-	blk = almostfinal.final(2)
+	blk = OOKz.orange(2,2,0) 
 	snk = blocks.vector_sink_f()  
 
 	self.tb.connect(src,blk)
